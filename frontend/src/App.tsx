@@ -45,7 +45,8 @@ function App() {
                     >
                       <button
                         style={{
-                          background: '#ccc',
+                          background: row.PurchasedLot > 0 ? '#666' : '#eee', // dark grey if PurchasedLot > 0, else light grey
+                          color: row.PurchasedLot > 0 ? '#fff' : '#000',
                           border: 'none',
                           width: '120px',
                           height: '40px',
