@@ -1,0 +1,6 @@
+# FastAPI + SQL Server backend requirements
+fastapi
+uvicorn
+sqlalchemy
+pyodbc
+python-dotenv
