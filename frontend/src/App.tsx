@@ -1,10 +1,7 @@
 import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
   const [candidates, setCandidates] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
@@ -46,7 +43,7 @@ function App() {
                       >
                         <button
                           style={{
-                            background: row.PurchasedLot > 0 ? '#666' : '#eee', // dark grey if PurchasedLot > 0, else light grey
+                            background: row.PurchasedLot > 0 ? '#666' : '#eee',
                             color: row.PurchasedLot > 0 ? '#fff' : '#000',
                             border: 'none',
                             width: '120px',
