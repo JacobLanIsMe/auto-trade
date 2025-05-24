@@ -1,6 +1,4 @@
-# FastAPI + SQL Server backend requirements
-fastapi
-uvicorn
-sqlalchemy
-pyodbc
+django
+mssql-django
+django-cors-headers
 python-dotenv
